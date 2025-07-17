@@ -36,10 +36,6 @@ This repository implements a Video Question Answering (VQA) pipeline using Sales
 
 The system extracts representative frames from each input video, applies multimodal prompting with the BLIP-2 model, selects the most relevant answer from multiple-choice options, and compiles all results into a `submission.json` file for EvalAI evaluation.
 
-### Visual Pipeline
-
-![BLIP-2 VQA Pipeline](./A_flowchart_infographic_visually_illustrates_Video.png)
-
 ### Step-by-Step
 
 1. **Frame Extraction**
